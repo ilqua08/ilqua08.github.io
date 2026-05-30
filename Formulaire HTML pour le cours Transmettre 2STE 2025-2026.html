@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="fr" style="" data-qb-installed="true"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Poppins:wght@400;500&amp;display=swap" rel="stylesheet" data-editor-preserved="true">
+    
+    <title>Formulaire Complet - Fonction TRANSMETTRE</title>
+    
+    
+    
+    
+    <style>
+      body {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 80px;
+        position: relative;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+      }
+      h1 {
+        text-align: center;
+        font-size: 24pt;
+        color: #111;
+        margin-bottom: 0.2em;
+      }
+      .subtitle {
+        text-align: center;
+        font-size: 14pt;
+        color: #555;
+        margin-bottom: 2em;
+        font-style: italic;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .toc {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 30px;
+      }
+      .toc ul {
+        list-style-type: none;
+        padding-left: 20px;
+      }
+      .part-title {
+        padding: 10px;
+        color: white;
+        font-size: 18pt;
+        margin-top: 40px;
+        text-align: center;
+      }
+      .bg-blue {
+        background-color: #2196f3;
+      }
+      .bg-green {
+        background-color: #4caf50;
+      }
+      .bg-orange {
+        background-color: #ff9800;
+      }
+
+      .color-blue {
+        color: #1976d2;
+        border-bottom: 2px solid #1976d2;
+      }
+      .color-green {
+        color: #2e7d32;
+        border-bottom: 2px solid #2e7d32;
+      }
+      .color-orange {
+        color: #e65100;
+        border-bottom: 2px solid #e65100;
+      }
+
+      .formula-box {
+        background: #fdfdfd;
+        border: 1px solid #e0e0e0;
+        padding: 12px 16px;
+        margin-bottom: 12px;
+        page-break-inside: avoid;
+      }
+      .border-blue {
+        border-left: 6px solid #2196f3;
+      }
+      .border-green {
+        border-left: 6px solid #4caf50;
+      }
+      .border-orange {
+        border-left: 6px solid #ff9800;
+      }
+
+      .variables {
+        display: block;
+        font-size: 9pt;
+        color: #666;
+        margin-top: 6px;
+        border-top: 1px dashed #eee;
+        padding-top: 4px;
+      }
+      .math-expr {
+        font-size: 12pt;
+        font-weight: 500;
+      }
+      footer {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 10pt;
+        color: #777;
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+      }
+    </style>
+  </head>
+  <qb-highlighter contenteditable="false" class="qb--mac-os" style="display: none; z-index: 1 !important;"><qb-div spellcheck="false" class="qb-highlighter__wrapper" style="overflow: hidden !important; width: 880px !important; height: 8226.62px !important; transform: none !important; transform-origin: 440px 4113.31px !important; zoom: 1 !important;"><qb-div class="qb-highlighter__scroll-element" style="top: 0px !important; left: 0px !important; width: 880px !important; height: 8226.62px !important;"><canvas class="qb-highlighter__canvas" width="448" height="827" style="display: none; top: 86px !important; left: 250px !important;"></canvas><canvas class="qb-highlighter__canvas" width="479" height="879" style="display: none; top: 1081px !important; left: 110px !important;"></canvas><canvas class="qb-highlighter__canvas" width="664" height="657" style="display: none; top: 4407px !important; left: 101px !important;"></canvas><canvas class="qb-highlighter__canvas" width="592" height="925" style="display: none; top: 6175px !important; left: 145px !important;"></canvas><canvas class="qb-highlighter__canvas" width="670" height="959" style="display: none; top: 2094px !important; left: 101px !important;"></canvas><canvas class="qb-highlighter__canvas" width="644" height="482" style="display: none; top: 5565px !important; left: 101px !important;"></canvas><canvas class="qb-highlighter__canvas" width="556" height="472" style="display: none; top: 3438px !important; left: 101px !important;"></canvas><canvas class="qb-highlighter__canvas" width="469" height="921" style="display: none; top: 7259px !important; left: 154px !important;"></canvas></qb-div></qb-div></qb-highlighter><body style="" data-qb-tmp-id="lt-267048" spellcheck="false" data-gramm="false">
+    <h1>Formulaire Complet - Fonction TRANSMETTRE</h1>
+    <div class="subtitle">Toutes les Relations - 2STE / 2STM / 2SMB - 2025/2026</div>
+
+    <div class="toc">
+      <h3>Table des matières</h3>
+      <ul>
+        <li>
+          <strong><a href="#part1">PARTIE 1 : SANS CHANGEMENT DE VITESSE</a></strong>
+          <ul>
+            <li><a href="#l1">Leçon 1 : Généralités - Puissance et Rendement</a></li>
+            <li><a href="#l2">Leçon 2 : Accouplements</a></li>
+            <li><a href="#l3">Leçon 3 : Embrayages</a></li>
+            <li><a href="#l4">Leçon 4 : Limiteur de couple</a></li>
+            <li><a href="#l5">Leçon 5 : Freins</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong><a href="#part2">PARTIE 2 : AVEC CHANGEMENT DE VITESSE</a></strong>
+          <ul>
+            <li><a href="#l6">Leçon 6 : Roues de friction</a></li>
+            <li><a href="#l7">Leçon 7 : Poulies-Courroies</a></li>
+            <li><a href="#l8">Leçon 8 : Pignon-Chaîne</a></li>
+            <li><a href="#l9">Leçon 9 : Engrenages (généralités - droits)</a></li>
+            <li><a href="#l10">Leçon 10 : Engrenages coniques</a></li>
+            <li><a href="#l11">Leçon 11 : Engrenages hélicoïdaux</a></li>
+            <li><a href="#l12">Leçon 12 : Roue et vis sans fin</a></li>
+            <li><a href="#l13">Leçon 13 : Trains épicycloïdaux</a></li>
+            <li><a href="#l14">Leçon 14 : Boîtes de vitesses</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong><a href="#part3">PARTIE 3 : TRANSFORMATION DE MOUVEMENT</a></strong>
+          <ul>
+            <li><a href="#l15">Leçon 15 : Bielle-Manivelle</a></li>
+            <li><a href="#l16">Leçon 16 : Excentrique</a></li>
+            <li><a href="#l17">Leçon 17 : Cames</a></li>
+            <li><a href="#l18">Leçon 18 : Vis-Écrou</a></li>
+            <li><a href="#l19">Leçon 19 : Pignon-Crémaillère</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    
+    <h2 id="part1" class="part-title bg-blue">PARTIE 1 : SANS CHANGEMENT DE VITESSE</h2>
+
+    <h3 id="l1" class="color-blue">Leçon 1 : Généralités - Puissance et Rendement ⚡</h3>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$P_{élec} = U \times I$</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$P_m = \omega_m \times C_m$</span>
+      <span class="variables">Pm: puissance mécanique moteur, ωm: vitesse angulaire moteur, Cm: couple moteur</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$P_r = \omega_r \times C_r$</span>
+      <span class="variables">Pr: puissance du réducteur, ωr: vitesse angulaire sortie, Cr: couple sortie</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$P_s = F_s \times V_s$</span>
+      <span class="variables">Ps: puissance de sortie, Fs: force, Vs: vitesse linéaire</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$\omega = \dfrac{2\pi \times N}{60}$</span>
+      <span class="variables">ω en rad/s, N en tr/min</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$\eta = \dfrac{P_{sortie}}{P_{entrée}}$</span>
+      <span class="variables">Rendement global</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$\eta_m = \dfrac{P_m}{P_{élec}} \quad ; \quad \eta_r = \dfrac{P_r}{P_m} \quad ; \quad \eta_{v-e} =
+        \dfrac{P_s}{P_r}$</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$k_r = \dfrac{\omega_r}{\omega_m}$</span>
+      <span class="variables">Rapport de réduction</span>
+    </div>
+
+    <h3 id="l2" class="color-blue">Leçon 2 : Accouplements (Rigide, Élastique, Flexible) 🔗</h3>
+    <div class="formula-box border-blue">
+      <strong>Liaison permanente entre deux arbres</strong>
+      <span class="variables">Pas de formules spécifiques - Conditions d'alignement : radial, axial, angulaire</span>
+    </div>
+
+    <h3 id="l3" class="color-blue">Leçon 3 : Embrayages ⚙️</h3>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$C = n \times F \times f \times R_{moy}$</span>
+      <span class="variables">Embrayage à friction (surface plane) - n: nombre de surfaces de friction, F: force pressante, f: coefficient de
+        frottement, Rmoy: rayon moyen</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$R_{moy} = \dfrac{2}{3} \times \dfrac{R^3 - r^3}{R^2 - r^2}$</span>
+      <span class="variables">Rayon moyen détaillé (R: rayon extérieur, r: rayon intérieur)</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$C = n \times F \times f \times \dfrac{2}{3} \times \dfrac{R^3 - r^3}{R^2 - r^2}$</span>
+      <span class="variables">Formule complète</span>
+    </div>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$C = \dfrac{n \times F \times f \times R_{moy}}{\sin\alpha}$</span>
+      <span class="variables">Embrayage conique - α: angle du cône</span>
+    </div>
+
+    <h3 id="l4" class="color-blue">Leçon 4 : Limiteur de couple 🛡️</h3>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$C = n \times F \times f \times R_{moy}$</span>
+      <span class="variables">Même principe que l'embrayage à friction plane</span>
+    </div>
+
+    <h3 id="l5" class="color-blue">Leçon 5 : Freins 🛑</h3>
+    <div class="formula-box border-blue">
+      <span class="math-expr">$C = n \times F \times f \times R_{moy}$</span>
+      <span class="variables">Frein à disque ou tambour</span>
+    </div>
+
+    
+    <h2 id="part2" class="part-title bg-green">PARTIE 2 : AVEC CHANGEMENT DE VITESSE</h2>
+
+    <h3 id="l6" class="color-green">Leçon 6 : Roues de friction 🎡</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$V_A = \omega_1 \times R_1 = \omega_2 \times R_2$</span>
+      <span class="variables">Vitesse au point de contact</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{\omega_2}{\omega_1} = \dfrac{N_2}{N_1} = \dfrac{d_1}{d_2} = \dfrac{R_1}{R_2}$</span>
+      <span class="variables">Rapport de transmission (sans glissement)</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{N_2}{N_1} \times \eta$</span>
+      <span class="variables">Rapport de transmission avec glissement</span>
+    </div>
+
+    <h3 id="l7" class="color-green">Leçon 7 : Poulies-Courroies 🔄</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$V_{courroie} = \omega_1 \times R_1 = \omega_2 \times R_2$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{N_2}{N_1} = \dfrac{d_1}{d_2} = \dfrac{D_1}{D_2}$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$V = \dfrac{N \times p \times Z}{60}$</span>
+      <span class="variables">Courroie crantée - p: pas, Z: nombre de dents</span>
+    </div>
+
+    <h3 id="l8" class="color-green">Leçon 8 : Pignon-Chaîne ⛓️</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{N_2}{N_1} = \dfrac{Z_1}{Z_2} = \dfrac{d_1}{d_2}$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$V = \dfrac{N \times p \times Z}{60}$</span>
+      <span class="variables">p: pas de la chaîne</span>
+    </div>
+
+    <h3 id="l9" class="color-green">Leçon 9 : Engrenages (généralités - droits) ⚙️</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d = m \times Z$</span>
+      <span class="variables">Diamètre primitif</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d_a = d + 2m \quad \text{(extérieur)} \quad ; \quad d_a = d - 2m \quad \text{(intérieur)}$</span>
+      <span class="variables">Diamètre de tête</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d_f = d - 2{,}5m \quad \text{(extérieur)} \quad ; \quad d_f = d + 2{,}5m \quad \text{(intérieur)}$</span>
+      <span class="variables">Diamètre de pied</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$h = 2{,}25 \times m$</span>
+      <span class="variables">Hauteur de dent</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$p = \pi \times m$</span>
+      <span class="variables">Pas</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$a = \dfrac{m(Z_1 + Z_2)}{2} \quad \text{(extérieur)} \quad ; \quad a = \dfrac{m(Z_2 - Z_1)}{2} \quad
+        \text{(intérieur)}$</span>
+      <span class="variables">Entraxe</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{N_2}{N_1} = \dfrac{Z_1}{Z_2}$</span>
+      <span class="variables">Rapport de transmission</span>
+    </div>
+
+    <h3 id="l10" class="color-green">Leçon 10 : Engrenages coniques 🔺</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$\delta_1 + \delta_2 = 90^\circ$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$\delta_1 = \arctan\left(\dfrac{Z_1}{Z_2}\right) \quad ; \quad \delta_2 =
+        \arctan\left(\dfrac{Z_2}{Z_1}\right)$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d_a = d + 2m \cos\delta \quad ; \quad d_f = d - 2{,}5m \cos\delta$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{\omega_2}{\omega_1} = \dfrac{N_2}{N_1} = \dfrac{Z_1}{Z_2} = \tan\delta_1$</span>
+    </div>
+
+    <h3 id="l11" class="color-green">Leçon 11 : Engrenages hélicoïdaux 🌀</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$m_n = m_t \times \cos\beta \quad ; \quad m_t = \dfrac{m_n}{\cos\beta}$</span>
+      <span class="variables">β: angle d'hélice</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$p_n = \pi \times m_n \quad \text{(normal)} \quad ; \quad p_t = \dfrac{p_n}{\cos\beta} = \pi \times m_t \quad
+        \text{(apparent)}$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d = m_t \times Z$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$d_a = d + 2m_n \quad ; \quad d_f = d - 2{,}5 m_n$</span>
+    </div>
+
+    <h3 id="l12" class="color-green">Leçon 12 : Roue et vis sans fin 🐌</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$m_{nV} = m_{nR}$</span>
+      <span class="variables">Modules normaux égaux</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$m_{tR} = m_{xV}$</span>
+      <span class="variables">Module apparent roue = module axial vis</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$\beta_V + \beta_R = 90^\circ$</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{\omega_R}{\omega_V} = \dfrac{N_R}{N_V} = \dfrac{Z_V}{Z_R} = \tan\beta_V$</span>
+      <span class="variables">ZV = nombre de filets de la vis</span>
+    </div>
+
+    <h3 id="l13" class="color-green">Leçon 13 : Trains épicycloïdaux 🪐</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$\dfrac{\omega_3 - \omega_{ps}}{\omega_1 - \omega_{ps}} = \dfrac{N_3 - N_{ps}}{N_1 - N_{ps}} = \lambda$</span>
+      <span class="variables">Formule de Willis</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$\lambda = (-1)^n \times \dfrac{\prod Z_{menantes}}{\prod Z_{menées}}$</span>
+      <span class="variables">n = nombre de contacts extérieurs</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$Z_1 + 2Z_2 = Z_3$</span>
+      <span class="variables">Condition géométrique (satellite simple)</span>
+    </div>
+    <div class="formula-box border-green">
+      <span class="math-expr">$m(Z_1 + Z_2) = m(Z_3 + Z_{2'})$</span>
+      <span class="variables">Condition géométrique (satellite double)</span>
+    </div>
+
+    <h3 id="l14" class="color-green">Leçon 14 : Boîtes de vitesses 🏎️</h3>
+    <div class="formula-box border-green">
+      <span class="math-expr">$k = \dfrac{N_s}{N_e} = \dfrac{\prod Z_{menantes}}{\prod Z_{menées}}$</span>
+    </div>
+
+    
+    <h2 id="part3" class="part-title bg-orange">PARTIE 3 : TRANSFORMATION DE MOUVEMENT</h2>
+
+    <h3 id="l15" class="color-orange">Leçon 15 : Bielle-Manivelle 🔧</h3>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$C_3 = 2R$</span>
+      <span class="variables">Course du piston - R: rayon de la manivelle</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$V = \dfrac{\pi \times d_3^2}{4} \times C_3$</span>
+      <span class="variables">Volume refoulé</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$C_y = V \times n_p \times n_{cycle}$</span>
+      <span class="variables">Cylindrée</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$Q_v = C_y \times N$</span>
+      <span class="variables">Débit</span>
+    </div>
+
+    <h3 id="l16" class="color-orange">Leçon 16 : Excentrique ⭕</h3>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$C = 2e$</span>
+      <span class="variables">Course - e: excentricité (Mouvement irréversible)</span>
+    </div>
+
+    <h3 id="l17" class="color-orange">Leçon 17 : Cames 🥚</h3>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$C = R - r$</span>
+      <span class="variables">Came disque - Course C - R: rayon max, r: rayon min (Types: disque, rainure, tambour)</span>
+    </div>
+
+    <h3 id="l18" class="color-orange">Leçon 18 : Vis-Écrou 🔩</h3>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$L = n_{tr} \times P$</span>
+      <span class="variables">Déplacement</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$P = P_a \times n_{filets}$</span>
+      <span class="variables">Pas total - Pa: pas apparent</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$V = \dfrac{\omega \times P}{2\pi} = \dfrac{N \times P}{60}$</span>
+      <span class="variables">Vitesse</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$P_e = \dfrac{P_s}{\eta} \quad \Rightarrow \quad C \times \omega = \dfrac{F \times V}{\eta}$</span>
+      <span class="variables">Puissance</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$\varphi &lt; \alpha &lt; 90^\circ - \varphi$</span>
+      <span class="variables">Condition de réversibilité - φ: angle de frottement, α: angle d'hélice</span>
+    </div>
+
+    <h3 id="l19" class="color-orange">Leçon 19 : Pignon-Crémaillère 📏</h3>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$L = R \times \theta = \dfrac{d}{2} \times \theta = \dfrac{m \times Z}{2} \times \theta$</span>
+      <span class="variables">Déplacement</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$L = n_{tr} \times \pi \times d = n_{tr} \times \pi \times m \times Z$</span>
+      <span class="variables">Déplacement par tour</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$V = \omega \times R = \omega \times \dfrac{m \times Z}{2} = \dfrac{\pi \times N \times m \times Z}{60}$</span>
+      <span class="variables">Vitesse</span>
+    </div>
+    <div class="formula-box border-orange">
+      <span class="math-expr">$C \times \omega = \dfrac{F \times V}{\eta}$</span>
+      <span class="variables">Puissance</span>
+    </div>
+
+    <footer>
+      <p>Source : Ezzahraoui.jimdofree.com | Formulaire 2STE/2STM/2SMB - 2025/2026</p>
+    </footer>
+  
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body></html>
